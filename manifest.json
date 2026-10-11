@@ -1,0 +1,27 @@
+{
+  "id": "app.chilpa.radio",
+  "name": "Radio",
+  "version": "0.1.2",
+  "api_version": 1,
+  "kind": "source",
+  "description": "Stations from Radio Browser, an open directory kept by its community. It needs no account.",
+  "icon": "broadcast",
+  "capabilities": [
+    {
+      "type": "network",
+      "domains": [
+        "api.radio-browser.info"
+      ]
+    },
+    {
+      "type": "register_source"
+    },
+    {
+      "type": "register_panel"
+    },
+    {
+      "type": "storage"
+    }
+  ],
+  "author": "vicrodh"
+}
