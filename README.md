@@ -24,5 +24,5 @@ tools/install-dev <out>/app.chilpa.radio <XDG_DATA_HOME>
 cargo test                                 # against recorded replies, no network
 ```
 
-The SDK comes from [chilpa-plugins](https://github.com/vicrodh/chilpa-plugins),
+The SDK comes from [chilpa-plugins-sdk](https://github.com/vicrodh/chilpa-plugins-sdk),
 pinned to the `protocol-4` tag in `Cargo.toml`.
