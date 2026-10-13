@@ -294,7 +294,7 @@ plugin! {
     chilpa_resolver => resolve,
 }
 
-/// I identify the medium explicitly so the host never recognizes a provider.
+/// Names the medium so the host never has to recognize the provider.
 pub fn browse_document(ask: Browse) -> Result<chilpa_plugin_sdk::serde_json::Value, String> {
     let mut listing = browse(ask)?;
     let facets = if listing.columns.len() > 3 { listing.columns.split_off(3) } else { Vec::new() };
